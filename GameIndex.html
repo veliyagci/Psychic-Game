@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="GameIndex.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <title>Guess My Age</title>
+</head>
+<body onload="init()">
+
+    <div id="container"> 
+        <div class="panel">
+            <h2>TRY TO GUESS MY AGE !</h2>
+            <h3>IT IS BETWEEN 1-100 !</h3>
+            <h4>GO ON !</h4>
+        </div>
+    </div>
+
+    <div class="panel">
+        <h3 id="textOutput">Give it a shot &amp; Press ENTER</h3>
+        <input type="number" id="inputBox" onchange="compareGuess()">
+        <p>Numbers of your Guess Sweeite: <span id="attemps"></span></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
